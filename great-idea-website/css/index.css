@@ -30,6 +30,7 @@ body {
 
 main {
   display: block;
+  box-sizing: border-box;
 }
 
 /**
@@ -351,3 +352,30 @@ template {
 }
 
 /* Your code starts here! */
+
+header nav {
+  display: inline-block;
+}
+
+header img {
+  display: inline-block;
+}
+
+.first-row .title-button {
+  display: inline-block;
+  text-align: center;
+}
+
+.first-row img {
+  display: inline-block;
+}
+
+.features-about .features {
+  display: inline-block;
+  width: 49%;
+}
+
+.features-about .about {
+  display: inline-block;
+  width: 49%;
+}
